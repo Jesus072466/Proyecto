@@ -7,6 +7,13 @@ img{
     margin-block-start: 2%;
 }
 
+#texto{
+  padding-right: 90px;
+  padding-left: 90px;
+  background-color: rgb(231, 224, 213);
+  border: 15px outset #d3b887;
+}
+  
 .modal {
     display: none; 
     position: fixed; 

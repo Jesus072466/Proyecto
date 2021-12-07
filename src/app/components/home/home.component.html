@@ -17,15 +17,27 @@
   </div>
 </div>
 <br><br>
-<div class="container" *ngFor="let articulo of articulos; let i=index">
-  <h3>{{articulo.titulo}}</h3>
-  <p>Autor: {{articulo.autor}}</p><br>
-  <img width="100%" src={{articulo.imagen}}>
+<div class="container px-5" *ngFor="let articulo of articulos; let i=index">
+  <div style="text-align: center;" class="container">
+    <h3>{{articulo.titulo}}</h3>
+    <p>Autor: {{articulo.autor}}</p><br>
+  </div>
+  <div class="px-0">
+    <img width="100%" src={{articulo.imagen}}>
+  </div>
   <br><br>
-  <p>{{articulo.contenido}}</p>
-  <p>Bibliografia: {{articulo.referencia}}</p>
-  <a href={{articulo.ruta}}>Leer articulo completo</a>
-  <br><br>
+  <div id="texto" class="container">
+    <br>
+    <div class="row">
+      <p style="text-align: justify;">{{articulo.contenido}}</p>
+    </div>
+    <div class="row">
+      <p>Bibliografia: {{articulo.referencia}}</p>
+      <a href={{articulo.ruta}}>Leer articulo completo</a>
+    </div>
+    <br>
+  </div>
+  <br><br><br><br>
 </div>
 
     <div id="myModal" class="modal">

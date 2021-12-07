@@ -9,7 +9,7 @@
 }
 
 #fafa{
-  background: rgb(163, 145, 117);
+  background: rgb(156, 148, 134);
 }
 
 .wrapper{
@@ -22,7 +22,7 @@
   background: #fff;
   padding: 25px;
   border-radius: 5px;
-  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+  box-shadow: 4px 4px 2px #804000; 
 }
 
 .wrapper h2{
@@ -55,8 +55,8 @@
   padding: 10px;
   text-align: center;
   width: 100%;
-  background: #3e5f8a;
-  color: white;
+  background: #d4cab4;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;

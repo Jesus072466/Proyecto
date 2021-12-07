@@ -1,15 +1,16 @@
 <div class="container">
   <br>
-  <h1 id="galeria">Galeria</h1>   
-  <section class="galeria" *ngFor="let result of data; let i = index" [ngClass]="{'active': i === 1}">
-    <a href={{result.img}}></a><img src={{result.img}} >
-    <a href={{result.img2}}></a><img src={{result.img2}} >                    
-    <a href={{result.img3}}></a><img src={{result.img3}} >
-    <a href={{result.img4}}></a><img src={{result.img4}} >
-    <a href={{result.img5}}></a><img src={{result.img5}} >
-    <a href={{result.img6}}></a><img src={{result.img6}} >
-    <a href={{result.img7}}></a><img src={{result.img7}} >
-    <a href={{result.img8}}></a><img src={{result.img8}} >
-    <a href={{result.img9}}></a><img src={{result.img9}} >
+  <h1 class="pb-5" id="galeria">Galeria</h1>   
+  <section class="galeria colorear pt-0 pb-0" *ngFor="let result of data; let i = index" [ngClass]="{'active': i === 1}">
+    <a href={{result.img}} target="_blank"><img src={{result.img}} ></a>
+    <a href={{result.img2}} target="_blank"><img src={{result.img2}} ></a>                    
+    <a href={{result.img3}} target="_blank"><img src={{result.img3}} ></a>
+    <a href={{result.img4}} target="_blank"><img src={{result.img4}} ></a>
+    <a href={{result.img5}} target="_blank"><img src={{result.img5}} ></a>
+    <a href={{result.img6}} target="_blank"><img src={{result.img6}} ></a>
+    <a href={{result.img7}} target="_blank"><img src={{result.img7}} ></a>
+    <a href={{result.img8}} target="_blank"><img src={{result.img8}} ></a>
+    <a href={{result.img9}} target="_blank"><img src={{result.img9}} ></a>
   </section> 
+  <br>
 </div>
