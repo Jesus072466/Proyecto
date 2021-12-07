@@ -5,11 +5,69 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './usuario.component.html',
   styleUrls: ['./usuario.component.css']
 })
-export class UsuarioComponent implements OnInit {
+export class UsuarioComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  miembrosOrg: any = [{
+    "nombre": "Juan Gabriel Huerta Huerta",
+    "nacionalidad": "Mexicana",
+    "oficio": "Diseñador grafico",
+    "edad": "43",
+    "descripcion": "Un jovenazo "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
+  }, {
+    "nombre": "",
+    "nacionalidad": "",
+    "oficio": "",
+    "edad": "",
+    "descripcion": " "
   }
+  ]
 
 }
