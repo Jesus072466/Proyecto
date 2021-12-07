@@ -1,4 +1,4 @@
-<div id="Form" class="container px-5 mt-4">
+<div id="Form" class="container px-5 pt-5 mt-0">
   <div id="carouselExampleIndicators" class="carousel slide px-5" data-bs-ride="carousel">
       <div class="carousel-inner">
         <!-- ngfor loop using get dynamic value and ngclass for add acive class -->
@@ -15,6 +15,17 @@
         <span class="visually-hidden">Next</span>
       </button>
   </div>
+</div>
+<br><br>
+<div class="container" *ngFor="let articulo of articulos; let i=index">
+  <h3>{{articulo.titulo}}</h3>
+  <p>Autor: {{articulo.autor}}</p><br>
+  <img width="100%" src={{articulo.imagen}}>
+  <br><br>
+  <p>{{articulo.contenido}}</p>
+  <p>Bibliografia: {{articulo.referencia}}</p>
+  <a href={{articulo.ruta}}>Leer articulo completo</a>
+  <br><br>
 </div>
 
     <div id="myModal" class="modal">

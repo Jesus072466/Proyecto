@@ -1,23 +1,21 @@
-
-<div id="form" class="container-fluid px-5">
-    <div id="box" class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name">
-        <label for="floatingInput">Nombre</label>
-    </div>
-    <div id="box" class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Apellidos</label>
-    </div>
-    <div id="box" class="form-floating mb-3">
-        <input type="tel" class="form-control" id="floatingInput" placeholder="name">
-        <label for="floatingInput">Telefono</label>
-    </div>
-    <div id="box" class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name">
-            <label for="floatingInput">Correo</label>
-    </div>
-    <div id="box2" class="form-floating mb-3">
-            <textarea   id="floatingInput" cols="30" placeholder="name" rows="10"></textarea>
-            <label for="floatingInput">Comentarios</label>
-    </div>
-</div>
+<div id="fafa" class="wrapper">
+    <h2>Contáctanos</h2>
+    <div id="error_message"></div>
+    <form id="myform" action="https://formsubmit.co/BuzonBichotasFDLP@gmail.com" method="POST" onsubmit="return validate();">
+      <div class="input_field">
+          <input type="text" name="Nombre" placeholder="Nombre Completo" id="name">
+      </div>
+      <div class="input_field">
+          <input type="text" name="Teléfono" placeholder="Teléfono" id="phone">
+      </div>
+      <div class="input_field">
+          <input type="text" name="Email" placeholder="Correo Electrónico" id="email">
+      </div>
+      <div class="input_field">
+          <textarea placeholder="Mensaje" name="Mensaje" id="message"></textarea>
+      </div>
+      <div class="btn">
+        <button type="button" onclick="Enviar()">Enviar</button>
+      </div>
+    </form>
+  </div>
