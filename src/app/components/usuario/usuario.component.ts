@@ -12,61 +12,61 @@ export class UsuarioComponent {
     "nacionalidad": "Mexicana",
     "oficio": "Diseñador grafico",
     "edad": "43",
-    "descripcion": "Un jovenazo "
+    "descripcion": "Profesor de Diseño"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Brian Julian Tavarez López",
+    "nacionalidad": "Peruana",
+    "oficio": "Antropologo",
+    "edad": "33",
+    "descripcion": "Reconocido investigador de antropología"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Ignacio Doriga Parada",
+    "nacionalidad": "Argentina",
+    "oficio": "Sociologo",
+    "edad": "24",
+    "descripcion": "Principal donandor de bienes mobiliarios"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Jonathan Adolfo Hernandez Torres",
+    "nacionalidad": "estadounidense",
+    "oficio": "Contador",
+    "edad": "55",
+    "descripcion": "Gerente de autoservicio"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Natasha Alix Romanoff ",
+    "nacionalidad": "Alemana",
+    "oficio": "Editora empresarial",
+    "edad": "30",
+    "descripcion": "Principal editora de articulos"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Joseph John Mora",
+    "nacionalidad": "Finlandes",
+    "oficio": "Comerciante de telas",
+    "edad": "47",
+    "descripcion": "Empresario reconocido en todo Europa"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Marcelo Scotish Valka",
+    "nacionalidad": "Sueco",
+    "oficio": "Intendente de la CIA",
+    "edad": "34",
+    "descripcion": "El mejor intendente de toda la CIA"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Lee Sin Kawa",
+    "nacionalidad": "Chino",
+    "oficio": "Director de una empresa automotriz",
+    "edad": "42",
+    "descripcion": "Famoso director de Shangai"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Jeremy Gothimberg",
+    "nacionalidad": "Holandes",
+    "oficio": "Florista",
+    "edad": "37",
+    "descripcion": "Florista aclamado en París"
   }, {
-    "nombre": "",
-    "nacionalidad": "",
-    "oficio": "",
-    "edad": "",
-    "descripcion": " "
+    "nombre": "Pablo Villagrán Montesdeoca",
+    "nacionalidad": "Colombiano",
+    "oficio": "Gerente de ventas",
+    "edad": "28",
+    "descripcion": "Gerente en tiendas departamentales"
   }
   ]
 

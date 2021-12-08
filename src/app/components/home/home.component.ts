@@ -8,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent{
 
   data = [
-    { img: "https://estaticos.muyinteresante.es/uploads/images/gallery/596dc6d85bafe889683c9872/huron-bebe-redes.jpg", title: "Slide 1" },
-    { img: "https://anamogas.net/wp-content/uploads/2020/10/Espiritu-Asis_BANNER.jpg", title: "Slide 2" },
-    { img: "https://therichpost.com/wp-content/uploads/2021/05/bootstrap5-carousel-slider-img3.jpg", title: "Slide 3" },
+    { img: "https://www.caritas.org.mx/wp-content/uploads/2018/09/pobreza-extrema-1200-1024x628.jpg", title: "Slide 1" },
+    { img: "https://scontent.fbjx1-1.fna.fbcdn.net/v/t31.18172-8/12322703_10207470351974666_5905238594494045069_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeE53EflAgLQqudGxbecDEgZ6B21bCRvsBvoHbVsJG-wG_-7y355sSij91Npb1NjTLsmFbDYKKGw71LGz2gWEzt_&_nc_ohc=LQTDBIC99t4AX-Oro7W&_nc_ht=scontent.fbjx1-1.fna&oh=09905c9b38d0b370d4ea32c78eeada19&oe=61D6125F", title: "Slide 2" },
+    { img: "https://cdn.esglobal.org/wp-content/uploads/2019/09/pobrezaFilipinas.jpg", title: "Slide 3" },
+    { img: "https://i2.wp.com/delacalle.org/wp-content/uploads/2019/03/pobreza.jpg?fit=1024%2C562&ssl=1", title: "Slide 4" },
+    { img: "https://cdn.esglobal.org/wp-content/uploads/2017/06/pobres.jpg", title: "Slide 5" },
+    { img: "https://cdn.esglobal.org/wp-content/uploads/2020/07/Oro_congo_portada.jpg", title: "Slide 6" },
+    { img: "https://anamogas.net/wp-content/uploads/2020/10/Espiritu-Asis_BANNER.jpg", title: "Slide 7" },
+    { img: "https://i2.wp.com/comentariodeldia.com/wp-content/uploads/Cover-articulos-ElCh-6.png?w=1200&ssl=1", title: "Slide 8" },
+    { img: "https://pbs.twimg.com/media/EHF9lpmX0AA8epi.jpg", title: "Slide 9" },
   ];
 
   articulos: any = [{
