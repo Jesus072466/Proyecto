@@ -27,7 +27,7 @@ export class UsuarioComponent {
     "descripcion": "Principal donandor de bienes mobiliarios"
   }, {
     "nombre": "Jonathan Adolfo Hernandez Torres",
-    "nacionalidad": "estadounidense",
+    "nacionalidad": "Estadounidense",
     "oficio": "Contador",
     "edad": "55",
     "descripcion": "Gerente de autoservicio"
@@ -62,7 +62,7 @@ export class UsuarioComponent {
     "edad": "37",
     "descripcion": "Florista aclamado en París"
   }, {
-    "nombre": "Pablo Villagrán Montesdeoca",
+    "nombre": "Pablo Villagrán Montes de oca",
     "nacionalidad": "Colombiano",
     "oficio": "Gerente de ventas",
     "edad": "28",
